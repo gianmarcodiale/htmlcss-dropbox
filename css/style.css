@@ -34,6 +34,10 @@ nav {
     background-color: aquamarine;
 }
 
+.debug .operations {
+    background-color: rgb(228, 64, 64);
+}
+
 /* Utility */
 nav::after {
     content: "";
@@ -97,5 +101,10 @@ nav::after {
 }
 
 .operations {
-    
+    height: 750px;
+}
+
+.dropbox_features {
+    height: 45%;
+    margin: 10px 42px;
 }
