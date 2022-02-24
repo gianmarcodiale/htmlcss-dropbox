@@ -38,6 +38,18 @@ nav {
     background-color: rgb(228, 64, 64);
 }
 
+.debug .featured {
+    background-color: purple;
+}
+
+.debug .faq {
+    background-color: yellow;
+}
+
+.debug .useful_links{
+    background-color: rgb(0, 230, 0);
+}
+
 /* Utility */
 nav::after {
     content: "";
@@ -101,10 +113,23 @@ nav::after {
 }
 
 .operations {
-    height: 750px;
+    height: 910px;
 }
 
 .dropbox_features {
-    height: 45%;
+    height: 40%;
     margin: 10px 42px;
+}
+
+.featured {
+    height: 500px;
+}
+
+.faq {
+    height: 400px;
+}
+
+/* region Footer */
+.useful_links {
+    height: 300px;
 }
