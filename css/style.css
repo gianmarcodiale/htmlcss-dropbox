@@ -1,5 +1,31 @@
+/* Common */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    min-width: 1440px;
+}
+
+nav {
+    height: 45px;
+}
+
+/* Utility */
+nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* region Header */
+.info {
+    width: 50%;
+    height: 45px;
+    background-color: orange;
+    float: left;
+}
+
+/* region Main */
