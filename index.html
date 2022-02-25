@@ -9,20 +9,30 @@
 </head>
 <body class="">
     <header id="site_header">
-        <nav class="navigation">
-            <span class="info menu-left">
-                <img src="./img/logo-small.png" alt="">
-                <a href="#">Perchè Dropbox</a>
-                <a href="#">Funzioni</a>
-                <a href="#">Piani e prezzi</a>
-            </span>
-            <span class="info menu_right">
-                <a href="#">Supporto</a>
-                <a href="#">Contatta l'ufficio vendite</a>
-                <a href="#">Accedi</a>
-                <a href="#">Inizia</a>
-            </span>
-        </nav>
+        <div class="row">
+    
+                <nav class="navigation">
+                    <div class="col_50">
+                        <a class="logo">
+                            <img src="./img/logo-small.png" alt="">
+                        </a>
+                        <ul class="inline_list menu_left">
+                            <li><a href="#">Perchè Dropbox</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                            <li><a href="#">Piani e prezzi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col_50">
+                        <ul class="inline_list menu_right">
+                            <li><a href="#">Supporto</a></li>
+                            <li><a href="#">Contatta l'ufficio vendite</a></li>
+                            <li><a href="#">Accedi</a></li>
+                        </ul>
+                        <a href="#" class="btn btn_primary">Inizia</a>
+                    </div>
+                </nav>
+                    
+        </div>
         <!-- /.navigation -->
     </header>
     <!-- /#site_header -->
@@ -30,19 +40,37 @@
         <div class="hero"></div>
         <!-- /.hero -->
         <section class="plans">
-            <div class="horizontal dropbox_buisness_plan"></div>
-            <div class="col_33 professional"></div>
-            <div class="col_33 standard"></div>
-            <div class="col_33 advanced"></div>
-            <div class="horizontal enterprise"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col_33"></div>
+                    <div class="col_33"></div>
+                    <div class="col_33"></div>
+                    <div class="col_100"></div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
         </section>
         <!-- /.plans -->
         <section class="partners"></section>
         <!-- /.partners -->
-        <section class="features"></section>
+        <section class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col_33"></div>
+                    <div class="col_33"></div>
+                    <div class="col_33"></div>
+                    <div class="col_33"></div>
+                    <div class="col_33"></div>
+                    <div class="col_33"></div>
+                </div>
+            </div>
+        </section>
         <!-- /.features -->
         <section class="teams"></section>
-        <!-- /.container faq -->
+        <!-- /.teams -->
+        <section class="call_to_action"></section>
+        <!-- /.call_to_action -->
         <section class="faq"></section>
         <!-- /.faq -->
     </main>

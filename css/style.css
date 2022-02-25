@@ -2,6 +2,7 @@
     --menu_text: #2C2C2C;
     --hero_color: #B4D0E7;
     --btn_color: #0061FF;
+    --light_color: #FEFEFF;
     --team_square_color: #F5F5F5;
     --team_footer_color: #61082B;
 }
@@ -19,24 +20,83 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--menu_text);
 }
 
-nav {
-    padding: 1rem;
+header {
+    padding: 0.5rem;
 }
 
-/* #region Header */
-.info>img{
-    vertical-align: sub;
+/* #region Utility */
+.container {
+    width: 70%;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-.info {
+.row {
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class^="col-"] {
+    float:left;
+}
+
+.col_33 {
+    width: 33.33%;
+}
+
+.col_40{
+    width: 40%;
+}
+
+.col_50 {
     width: 50%;
+}
+
+.col_60 {
+    width: 60%;
+}
+
+.col_100 {
+    width: 100%;
+}
+
+ul.inline_list {
+    list-style: none;
     display: inline-block;
 }
 
-.info>a {
-    color: var(--menu_text);
+ul.inline_list>li {
+    display: inline-block;
+}
+
+/* #region Header */
+.navigation .menu_left a,
+.navigation .menu_right a{
+    padding: 0.5rem;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.btn_primary {
+    background-color: var(--btn_color);
+    color: var(--light_color);
+}
+
+/* #region Main */
+.hero {
+    height: 660px;
+    background-color: var(--hero_color);
 }
 
 
