@@ -35,6 +35,12 @@ header {
     margin: 0 auto;
 }
 
+.container_large {
+    width: 90%;
+    max-width: 1160px;
+    margin: auto;
+}
+
 .row {
     width: 100%;
 }
@@ -97,7 +103,7 @@ ul.inline_list>li {
 .btn {
     display: inline-block;
     font-size: 0.9rem;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 .btn_primary {
@@ -111,4 +117,6 @@ ul.inline_list>li {
     background-color: var(--hero_color);
 }
 
-
+.hero h1 {
+    font-size: 68px;
+}
