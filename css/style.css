@@ -5,9 +5,11 @@
     --light_color: #FEFEFF;
     --team_square_color: #F5F5F5;
     --team_footer_color: #61082B;
+    --period_color: #6A7986;
 }
 
 /* Common */
+
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +35,7 @@ img {
 }
 
 /* #region Utility */
+
 .container {
     width: 70%;
     max-width: 960px;
@@ -79,6 +82,16 @@ img {
     width: 100%;
 }
 
+.who {
+    border: 1px solid black;
+    border-bottom: 0;
+    padding: 0.75rem;
+}
+
+.types {
+    border: 1px solid black;
+}
+
 /* Text */
 
 ul.inline_list {
@@ -94,7 +107,21 @@ ul.inline_list>li {
     text-align: right;
 }
 
+.who {
+    text-align: center;
+}
+
+.types h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.types h5 {
+    margin-bottom: 1rem;
+}
+
 /* #region Header */
+
 .navigation .menu_left a,
 .navigation .menu_right a{
     padding: 0.5rem;
@@ -121,6 +148,9 @@ ul.inline_list>li {
 }
 
 /* #region Main */
+
+/* Hero */
+
 .hero {
     height: 635px;
     background-color: var(--hero_color);
@@ -148,3 +178,19 @@ ul.inline_list>li {
 .hero_img {
     margin-top: 2rem;
 }
+
+/* Plans */
+
+.radio {
+    margin: 4rem 0;
+}
+
+.container>h2 {
+    margin-top: 9rem;
+}
+
+.types .period {
+    font-size: 0.85rem;
+    color: var(--period_color);
+}
+
