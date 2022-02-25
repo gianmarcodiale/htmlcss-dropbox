@@ -28,6 +28,10 @@ header {
     padding: 0.75rem;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* #region Utility */
 .container {
     width: 70%;
@@ -111,12 +115,36 @@ ul.inline_list>li {
     color: var(--light_color);
 }
 
+.padd_1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 /* #region Main */
 .hero {
-    height: 660px;
+    height: 635px;
     background-color: var(--hero_color);
 }
 
 .hero h1 {
     font-size: 68px;
+    padding-top: 5rem;
+    line-height: 6rem;
+}
+
+.hero_text p {
+    margin: 2rem 0 1.5rem;
+}
+
+.hero_text :nth-child(3) {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+}
+
+.hero_text>div {
+    font-size: 3rem;
+}
+
+.hero_img {
+    margin-top: 2rem;
 }
