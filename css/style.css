@@ -118,11 +118,11 @@ ul.inline_list>li {
 
 .types h3 {
     margin-top: 1.5rem;
-    margin-bottom: 1rem;
 }
 
 .types h5 {
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 p.period {
@@ -132,6 +132,11 @@ p.period {
 .types_text p {
     font-size: 0.85rem;
     margin: 1rem 0;
+}
+
+.types_text a {
+    text-decoration: underline;
+    color: blue;
 }
 
 
@@ -207,4 +212,25 @@ p.period {
 .types_text .free_trial {
     margin-left: 30px;
     margin-top: 30px;
+    text-decoration: none;
+    color: var(--light_color);
+}
+
+hr {
+    width: 20%;
+    color: var(--period_color);
+}
+
+ul.main_features {
+    list-style: none;
+    margin-bottom: 8rem;
+}
+
+ul.main_features>li{
+    line-height: 2rem;
+    font-size: 0.85rem;
+}
+
+ul.main_features i {
+    color: var(--btn_color);
 }
