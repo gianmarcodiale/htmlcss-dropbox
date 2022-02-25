@@ -63,7 +63,11 @@ img {
 }
 
 .col_33 {
-    width: 33.33%;
+    width: 30%;
+}
+
+.col33_center {
+    margin: 0 3rem;
 }
 
 .col_40{
@@ -83,17 +87,17 @@ img {
 }
 
 .who {
-    border: 1px solid black;
+    border: 1px solid #DEDEE0;
     border-bottom: 0;
     padding: 0.75rem;
 }
 
 .types {
-    border: 1px solid black;
+    border: 1px solid #DEDEE0;
 }
 
 .types_text {
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
@@ -137,6 +141,11 @@ p.period {
 .types_text a {
     text-decoration: underline;
     color: blue;
+}
+
+.free_trial .days {
+    color: var(--light_color);
+    text-decoration: none;
 }
 
 
@@ -210,10 +219,12 @@ p.period {
 }
 
 .types_text .free_trial {
-    margin-left: 30px;
-    margin-top: 30px;
-    text-decoration: none;
-    color: var(--light_color);
+    width: 100%;
+    margin: auto;
+    background-color: var(--btn_color);
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 hr {
@@ -223,14 +234,18 @@ hr {
 
 ul.main_features {
     list-style: none;
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
 }
 
 ul.main_features>li{
-    line-height: 2rem;
+    line-height: 3rem;
     font-size: 0.85rem;
 }
 
 ul.main_features i {
     color: var(--btn_color);
+}
+
+#plus {
+    margin-bottom: 12rem;
 }
