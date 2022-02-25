@@ -92,6 +92,11 @@ img {
     border: 1px solid black;
 }
 
+.types_text {
+    width: 80%;
+    margin: auto;
+}
+
 /* Text */
 
 ul.inline_list {
@@ -119,6 +124,16 @@ ul.inline_list>li {
 .types h5 {
     margin-bottom: 1rem;
 }
+
+p.period {
+    color: var(--period_color);
+}
+
+.types_text p {
+    font-size: 0.85rem;
+    margin: 1rem 0;
+}
+
 
 /* #region Header */
 
@@ -189,8 +204,7 @@ ul.inline_list>li {
     margin-top: 9rem;
 }
 
-.types .period {
-    font-size: 0.85rem;
-    color: var(--period_color);
+.types_text .free_trial {
+    margin-left: 30px;
+    margin-top: 30px;
 }
-
