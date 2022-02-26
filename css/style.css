@@ -62,11 +62,11 @@ img {
     float:left;
 }
 
-.col_33 {
+.col_30 {
     width: 30%;
 }
 
-.col33_center {
+.col30_center {
     margin: 0 3rem;
 }
 
@@ -90,6 +90,8 @@ img {
     border: 1px solid #DEDEE0;
     border-bottom: 0;
     padding: 0.75rem;
+    text-align: center;
+    margin-top: 4rem;
 }
 
 .types {
@@ -99,6 +101,7 @@ img {
 .types_text {
     width: 85%;
     margin: auto;
+    position: relative;
 }
 
 /* Text */
@@ -116,10 +119,6 @@ ul.inline_list>li {
     text-align: right;
 }
 
-.who {
-    text-align: center;
-}
-
 .types h3 {
     margin-top: 1.5rem;
 }
@@ -135,7 +134,7 @@ p.period {
 
 .types_text p {
     font-size: 0.85rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .types_text a {
@@ -211,7 +210,7 @@ p.period {
 /* Plans */
 
 .radio {
-    margin: 4rem 0;
+    margin-top: 4rem;
 }
 
 .container>h2 {
@@ -247,5 +246,16 @@ ul.main_features i {
 }
 
 #plus {
-    margin-bottom: 12rem;
+    margin-bottom: 13rem;
+}
+
+.sell_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#sell_office {
+    text-decoration: none;
+    color: var(--light_color);
 }
