@@ -259,3 +259,28 @@ ul.main_features i {
     text-decoration: none;
     color: var(--light_color);
 }
+
+/* Partners */
+
+.partners h3 {
+    padding: 1.5rem;
+}
+
+.partners p {
+    padding: 0 1.5rem;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+}
+
+.find_partners {
+    margin: 1.5rem 1.5rem;
+    border: 1px solid;
+}
+
+.partners .col_40 {
+    margin-top: 3rem;
+}
+
+.partners .row {
+    margin-top: 7rem;
+}
