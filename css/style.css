@@ -284,3 +284,18 @@ ul.main_features i {
 .partners .row {
     margin-top: 7rem;
 }
+
+/* Features */
+
+.features p {
+    font-size: 0.85rem;
+    margin-top: 2rem;
+}
+
+.features .col_30 {
+    margin-top: 5rem;
+}
+
+.features .row {
+    margin-top: 7rem;
+}
