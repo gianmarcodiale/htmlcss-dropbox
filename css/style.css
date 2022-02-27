@@ -58,8 +58,13 @@ img {
     clear: both;
 }
 
+
 [class^="col_"] {
     float:left;
+}
+
+.col_20 {
+    width: 20%;
 }
 
 .col_30 {
@@ -298,4 +303,18 @@ ul.main_features i {
 
 .features .row {
     margin-top: 7rem;
+}
+
+/* Teams */
+
+.teams h2 {
+    line-height: 2rem;
+}
+
+.find_more {
+    text-decoration: underline;
+    color: blue;
+    font-size: 0.85rem;
+    margin-top: 2rem;
+    display: inline-block;
 }
