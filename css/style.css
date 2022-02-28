@@ -369,12 +369,12 @@ ul.main_features i {
     background-color: var(--topps);
 }
 
-.container_full .col_50 {
+.teams>.container_full .col_50 {
     height: 216px;
     color: white;
 }
 
-.container_full .row {
+.teams>.container_full .row {
     margin-top: 3rem;
 }
 
@@ -417,4 +417,29 @@ ul.main_features i {
 
 .cco {
     background-color: var(--cco);
+}
+
+/* Call to Action */
+
+.call_to_action>.container_full {
+    background-color: var(--hero_color);
+    height: 300px;
+}
+
+.call_to_action h2 {
+    font-size: 2.5rem;
+    margin-top: 7rem;
+    color: var(--team_footer_color);
+}
+
+.call_to_action .col_50 {
+    position: relative;
+}
+
+.call_to_action .btn {
+    background-color: var(--light_color);
+    padding: 0.5rem 2rem;
+    position: absolute;
+    left: 50%;
+    margin-top: 7rem;
 }
