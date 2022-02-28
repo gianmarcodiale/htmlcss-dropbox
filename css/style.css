@@ -6,6 +6,15 @@
     --team_square_color: #F5F5F5;
     --team_footer_color: #61082B;
     --period_color: #6A7986;
+    --designit: #A2D39B;
+    --uof: #0093CE;
+    --lonely_planet: #0D2481;
+    --asu: #61082B;
+    --hearst: #B4D0E7;
+    --wbr: #D5001F;
+    --topps: #FF1C1C;
+    --cco: #FFD830;
+
 }
 
 /* Common */
@@ -48,6 +57,11 @@ img {
     margin: auto;
 }
 
+.container_full {
+    width: 100%;
+    max-width: 1440px;
+}
+
 .row {
     width: 100%;
 }
@@ -57,7 +71,6 @@ img {
     display: table;
     clear: both;
 }
-
 
 [class^="col_"] {
     float:left;
@@ -81,6 +94,7 @@ img {
 
 .col_50 {
     width: 50%;
+    position: relative;
 }
 
 .col_60 {
@@ -107,6 +121,17 @@ img {
     width: 85%;
     margin: auto;
     position: relative;
+}
+
+.container_full .col_30 img {
+    max-width: 50%;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    filter: invert(1);
 }
 
 /* Text */
@@ -292,6 +317,10 @@ ul.main_features i {
 
 /* Features */
 
+.features h3 {
+    font-size: 1.1rem;
+}
+
 .features p {
     font-size: 0.85rem;
     margin-top: 2rem;
@@ -311,10 +340,81 @@ ul.main_features i {
     line-height: 2rem;
 }
 
+.teams .container {
+    margin-top: 8rem;
+}
+
 .find_more {
     text-decoration: underline;
     color: blue;
     font-size: 0.85rem;
     margin-top: 2rem;
     display: inline-block;
+}
+
+.designit {
+    background-color: var(--designit);
+    border: 8px solid rgba(255, 255, 255, 0.459);
+}
+
+.asu {
+    background-color: var(--asu);
+}
+
+.uof {
+    background-color: var(--uof);
+}
+
+.topps {
+    background-color: var(--topps);
+}
+
+.container_full .col_50 {
+    height: 216px;
+    color: white;
+}
+
+.container_full .row {
+    margin-top: 3rem;
+}
+
+.container_full .col_40{
+    background-color: var(--team_square_color);
+    height: 432px;
+}
+
+.container_full .col_100 img {
+    max-width: 20%;
+    margin: 2rem;
+}
+
+.container_full hr {
+    width: 10%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.col_100_text {
+    margin: 2rem;
+    font-size: 0.85rem;
+}
+
+#author {
+    margin-top: 3rem;
+}
+
+.wbr {
+    background-color: var(--wbr);
+}
+
+.hearst {
+    background-color: var(--hearst);
+}
+
+.lonely_planet {
+    background-color: var(--lonely_planet);
+}
+
+.cco {
+    background-color: var(--cco);
 }
