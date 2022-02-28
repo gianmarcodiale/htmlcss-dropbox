@@ -25,6 +25,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     min-width: 1440px;
     font-family: 'Open-Sans', sans-serif;
@@ -205,6 +209,8 @@ p.period {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+/* /#region Header */
 
 /* #region Main */
 
@@ -464,6 +470,36 @@ ul.main_features i {
     bottom: 80%;
 }
 
+/* /#region Main */
 
+/* #region Footer */
 
+.container_full {
+    background-color: black;
+}
+
+.container_full .col_20 {
+    color: white;
+    line-height: 1.5rem;
+}
+
+.col_20 h5 {
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+.col_20 p {
+    font-size: 0.85rem;
+}
+
+.col_20 hr {
+    width: 30%;
+    margin-top: 5rem;
+    margin-left: 0;
+}
+
+.language {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
 
