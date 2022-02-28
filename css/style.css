@@ -103,6 +103,7 @@ img {
 
 .col_100 {
     width: 100%;
+    position: relative;
 }
 
 .who {
@@ -443,3 +444,26 @@ ul.main_features i {
     left: 50%;
     margin-top: 7rem;
 }
+
+/* Faq */
+
+.faq hr {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    bottom: 45%;
+}
+
+.arrow_df {
+    position: absolute;
+    right: 0;
+    bottom: 80%;
+}
+
+
+
+
