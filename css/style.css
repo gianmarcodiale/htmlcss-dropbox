@@ -237,7 +237,7 @@ p.period {
 }
 
 .hero_text>div {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .hero_img {
@@ -488,8 +488,9 @@ ul.main_features i {
     margin-top: 4rem;
 }
 
-.col_20 p {
+.col_20 a {
     font-size: 0.85rem;
+    color: white;
 }
 
 .col_20 hr {
